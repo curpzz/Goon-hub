@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: goon-hub
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: .
