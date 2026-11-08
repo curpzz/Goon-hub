@@ -5,18 +5,19 @@
 <title>GOON HUB — Play</title><link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header><a class="logo" href="#">GOON<span>HUB</span></a><div class="status">● ALL SYSTEMS READY</div></header>
+<header><a class="logo" href="#">GOON<span>HUB</span></a><div class="status">● ARCADE ONLINE</div></header>
 <main>
-<section class="hero"><p class="eyebrow">YOUR NEXT GAME STARTS HERE</p><h1>PLAY<br><span>WITHOUT LIMITS.</span></h1><p class="sub">A clean home for quick games, big scores, and good times.</p><a class="cta" href="#games">EXPLORE GAMES <b>↘</b></a></section>
-<section class="toolbar" id="games"><div><p class="eyebrow">THE ARCADE</p><h2>Pick your game.</h2></div><input id="search" placeholder="Search games…" aria-label="Search games"></section>
-<nav id="filters"><button class="filter active" data-filter="all">ALL</button><button class="filter" data-filter="arcade">ARCADE</button><button class="filter" data-filter="puzzle">PUZZLE</button><button class="filter" data-filter="classic">CLASSICS</button><button class="filter" data-filter="saved">★ SAVED</button></nav>
+<section class="hero"><p class="eyebrow">YOUR NEXT GAME STARTS HERE</p><h1>PLAY<br><span>WITHOUT LIMITS.</span></h1><p class="sub">A bigger arcade for quick games, big scores, and good times.</p><a class="cta" href="#games">EXPLORE GAMES <b>↘</b></a></section>
+<section class="toolbar" id="games"><div><p class="eyebrow">THE ARCADE</p><h2>Pick your game.</h2><p class="sub small">More browser games. No downloads.</p></div><input id="search" placeholder="Search games…" aria-label="Search games"></section>
+<nav id="filters"><button class="filter active" data-filter="all">ALL</button><button class="filter" data-filter="racing">RACING</button><button class="filter" data-filter="sports">SPORTS</button><button class="filter" data-filter="puzzle">PUZZLE</button><button class="filter" data-filter="arcade">ARCADE</button><button class="filter" data-filter="classic">CLASSICS</button><button class="filter" data-filter="saved">★ SAVED</button></nav>
 <section class="grid" id="grid">
-<article class="game" data-name="snake run" data-category="arcade"><div class="art snake">〰</div><div class="game-info"><div><h3>Snake Run</h3><p>Arcade · 1 player</p></div><button class="play" data-game="snake">PLAY ↗</button></div><button class="save" aria-label="Save Snake Run">☆</button></article>
-<article class="game" data-name="2048" data-category="puzzle"><div class="art puzzle">2048</div><div class="game-info"><div><h3>2048</h3><p>Puzzle · 1 player</p></div><button class="play" data-game="2048">PLAY ↗</button></div><button class="save" aria-label="Save 2048">☆</button></article>
-<article class="game" data-name="tic tac toe" data-category="classic"><div class="art tic">× <i>○</i></div><div class="game-info"><div><h3>Tic Tac Toe</h3><p>Classic · 2 players</p></div><button class="play" data-game="tic">PLAY ↗</button></div><button class="save" aria-label="Save Tic Tac Toe">☆</button></article>
+<article class="game" data-name="snake run" data-category="arcade"><div class="art snake">〰</div><div class="game-info"><div><h3>Snake Run</h3><p>Arcade · Built in</p></div><button class="play" data-game="snake">PLAY ↗</button></div><button class="save" aria-label="Save Snake Run">☆</button></article>
+<article class="game" data-name="2048" data-category="puzzle"><div class="art puzzle">2048</div><div class="game-info"><div><h3>2048</h3><p>Puzzle · Built in</p></div><button class="play" data-game="2048">PLAY ↗</button></div><button class="save" aria-label="Save 2048">☆</button></article>
+<article class="game" data-name="tic tac toe" data-category="classic"><div class="art tic">× <i>○</i></div><div class="game-info"><div><h3>Tic Tac Toe</h3><p>Classic · Built in</p></div><button class="play" data-game="tic">PLAY ↗</button></div><button class="save" aria-label="Save Tic Tac Toe">☆</button></article>
 </section>
+<section class="more-games"><div><p class="eyebrow">NEED EVEN MORE?</p><h2>Explore the full arcade.</h2><p class="sub">Browse the full free HTML5 collections from our game partners.</p></div><div class="more-links"><a href="https://www.onlinegames.io/t/html5/" target="_blank" rel="noopener noreferrer">ONLINEGAMES.IO HTML5 LIBRARY ↗</a><a href="https://www.onlinegames.io/t/free/" target="_blank" rel="noopener noreferrer">1,000+ FREE GAMES ↗</a><a href="https://www.htmlgames.com/" target="_blank" rel="noopener noreferrer">HTMLGAMES.COM ↗</a></div></section>
 <footer>GOON HUB <span>BUILT FOR THE LOVE OF PLAY.</span></footer>
 </main>
-<div class="modal" id="modal" aria-hidden="true"><div class="modal-box"><div class="modal-head"><strong id="game-title">GAME</strong><button id="close" aria-label="Close">✕</button></div><div id="stage"></div></div></div>
+<div class="modal" id="modal" aria-hidden="true"><div class="modal-box"><div class="modal-head"><strong id="game-title">GAME</strong><div class="modal-actions"><a id="open-game" href="#" target="_blank" rel="noopener noreferrer">OPEN GAME ↗</a><button id="close" aria-label="Close">✕</button></div></div><div id="stage"></div></div></div>
 <script src="app.js"></script>
 </body></html>
